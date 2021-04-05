@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual Template for Bootstrap</title>
+    <title>TPK - Home</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -18,8 +18,8 @@
 
 <body>
 
-    <div class="brand">Business Casual</div>
-    <div class="address-bar">The Plaza | 5483 Start Bootstrap Ave. | Beverly Hills, California 26892 | 555.519.2013</div>
+    <div class="brand">The Perfect Kitchen</div>
+    <div class="address-bar">Palsikar Colony, Indore</div>
 
 <?php require_once "nav.php"; ?>
 
@@ -61,11 +61,11 @@
                         <small>Welcome to</small>
                     </h2>
                     <h1>
-                        <span class="brand-name">Business Casual</span>
+                        <span class="brand-name">The Perfect Kitchen</span>
                     </h1>
                     <hr class="tagline-divider">
                     <h2>
-                        <small>By <strong>Start Bootstrap</strong></small>
+                        <small>By <strong>Harshita ❤ Harish</strong></small>
                     </h2>
                 </div>
             </div>
@@ -75,14 +75,14 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Build a website <strong>worth visiting</strong>
+                    <h2 class="intro-text text-center">What is <strong>The Perfect Kitchen</strong>
                     </h2>
                     <hr>
                     <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
                     <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p>The Perfect Kitchen marks the online presence of <i><b>HARSHITA-HARISH KI RASAOI</b></i>, a youtube channel started from the kitchen of middle class business woman.</p>
+                    <p>We try to make uncommon dishes in the simplest way possible so that the same dish can be made in every common-man's kitchen without any chaos. We also try to recreate common dishes in the most uncommon way by giving them twists which no-one else can ever think of.</p>
+                    <p>This website also contains blogs which are the transcripts of our youtube videos. It also contains some member exclusive contents and recipes which you can't find anywhere else over the internet.</p>
                 </div>
             </div>
         </div>
@@ -91,11 +91,11 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes <strong>to showcase your content</strong>
+                    <h2 class="intro-text text-center"><strong>Another Venture - Lady Care 💃</strong>
                     </h2>
                     <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p><b><i>Lady Care</i></b> is a one stop solution for all the needs of a woman. Initially started as a small store for women, it now contains everything that a woman needs.</p>
+                    <p>The shop also has a beauty salon where any and every kind of women grooming are done. The service rates and product costs are also reasonable making it the perfect dream place for any lady.</p>
                 </div>
             </div>
         </div>
