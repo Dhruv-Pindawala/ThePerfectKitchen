@@ -68,7 +68,7 @@
 
                         } else if (html == 'pshort') {
                             $("#add_err2").html('<div class="alert alert-danger"> \
-                                                 <strong>Password</strong> must be atleast 4 characters long. \ \
+                                                 <strong>Password</strong> must be atleast 8 characters long. \ \
                                                  </div>');
 
                         } else {
