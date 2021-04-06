@@ -18,8 +18,7 @@
 
 <body>
 
-    <div class="brand">The Perfect Kitchen</div>
-    <div class="address-bar">Palsikar Colony, Indore</div>
+
 
 <?php require_once "nav.php"; ?>
 
