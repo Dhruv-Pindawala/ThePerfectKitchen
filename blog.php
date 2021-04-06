@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog - Business Casual Template for Bootstrap</title>
+    <title>TPK - Blog</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -26,38 +26,38 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Company <strong>blog</strong>
+                    <h2 class="intro-text text-center">The Perfect Kitchen <strong>blog</strong>
                     </h2>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
-                    <h2>Post Title
+                    <img class="img-border" src="https://thecozycook.com/wp-content/uploads/2019/05/BEST-Cheesy-Homemade-Garlic-Bread-Recipe-2.jpg" alt="">
+                    <h2>Cheese Garlic Toast
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>March 14, 2021</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>A quick cheese garlic bread toast under 20 mins. You can make this with any kind of bread you have. We went ahead using a whole meal loaf. This is a very simple garlic bread recipe and you can spice it up with own ideas like using chili flakes, crushed pepper or even with fresh herbs or dried herbs.</p>
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#cgtmodal">Read More</button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
-                    <h2>Post Title
+                    <img class="img-border" src="https://images.herzindagi.info/image/2019/Sep/crispy-corn-recipe-main.jpg" alt="">
+                    <h2>Crispy Corn
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>March 6, 2021</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>Crispy corn is a snack made by frying corn kernels and then flavoring with spice powders. There are a few different ways crispy corn is made in restaurants and fast food centers. You may find crispy corn coated with thin to extremely thick layer made using cornflour.</p>
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#ccornmodal">Read More</button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
-                    <h2>Post Title
+                    <img class="img-responsive img-border img-full" src="https://thechutneylife.com/wp-content/uploads/2020/05/Chili-Paneer-2-The-Chutney-Life-4-1.jpg" alt="">
+                    <h2>Chilli Paneer
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>Jan 22, 2021</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>Chilli Paneer is one of the favorite dishes from Indian Chinese cuisine. In a typical Chilli Paneer recipe, the fried paneer cubes are tossed in a sweet, sour, spicy sauce. The paneer cubes can be coated with flours or batter coated and deep fried. The dry version of chilli paneer is served as a starter or appetizer snack. The gravy version is had with steamed rice or noodles. The semi-dry version can be had as an appetizer.</p>
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#cpanmodal">Read More</button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
@@ -73,6 +73,58 @@
 
     </div>
     <!-- /.container -->
+
+    <!-- Modals -->
+    <div id="cgtmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Cheese Garlic Toast</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Full recipe</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ccornmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Crispy Corn</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Full recipe</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cpanmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Chilli Paneer</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Full recipe</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php require_once "footer.php"; ?>
 
