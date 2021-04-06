@@ -18,9 +18,22 @@
 
 <body>
 
-
-
 <?php require_once "nav.php"; ?>
+
+<?php
+if (isset($_GET["logout"])) {
+    if ($_GET["logout"] == "true") { ?>
+
+    <div class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>You have been logged out of the system.</strong>
+    </div>
+
+<?php
+    }
+}
+?>
+
 
     <div class="container">
 
