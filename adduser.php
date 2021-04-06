@@ -4,7 +4,7 @@ session_start();
 $mysqli = new mysqli('localhost', 'root', '', 'theperfectkitchen');
 
 if ($mysqli->connect_error) {
-    die('Error : (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
+    die('Error : ('. $mysqli->connect_errno. ') ' . $mysqli->connect_error);
 }
 
 $fname = mysqli_real_escape_string($mysqli, $_POST['fname']);
@@ -33,7 +33,7 @@ if (strlen($fname) < 2) {
 
     if ($num_row < 1) {
 
-        $insert_row = $mysqli->query("INSERT INTO members (fname, lname, email, password) VALUES ('$fname', '$lname', '$email', '$password')");
+        $insert_row = $mysqli->query("INSERT INTO members (fname, lname, email, psswd) VALUES ('$fname', '$lname', '$email', '$spassword')");
 
         if ($insert_row) {
 
@@ -49,7 +49,7 @@ if (strlen($fname) < 2) {
         echo 'false';
 
     }
-    
+
 }
 
 ?>
