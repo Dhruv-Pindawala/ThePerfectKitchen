@@ -51,13 +51,13 @@ if (isset($_GET["logout"])) {
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                                <img class="img-responsive img-full" src="https://jessica-elizabeth.net/wp-content/uploads/2019/05/Sean-Lew-1440x863.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                                <img class="img-responsive img-full" src="https://www.jfsvancouver.ca/wp-content/uploads/2018/09/Food-Bank-Story-5-e1538596042866.png" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                                <img class="img-responsive img-full" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/indore-india-city-skyline-fun-whimsical-series-wide-design-turnpike.jpg" alt="">
                             </div>
                         </div>
 
